@@ -1,5 +1,4 @@
 body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-}
 #header {
     margin: -25px;
     padding: 50px;
@@ -11,7 +10,7 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
 
     margin: 25px;
     width: 50px;
-    color:azure
+    color:azure;
     }
 #img1  {width:500px;height:500px}
 h2 {font-size: 14px; color:rgb(73, 92, 73)}
