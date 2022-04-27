@@ -12,5 +12,6 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
     width: 50px;
     color:azure;
     }
-#img1  {width:50px;height:50px;}
+img  {max-width:100%;max-height:100%;}
+.img1 {width:100px;height:100px;}
 h2 {font-size: 14px; color:rgb(73, 92, 73)}
