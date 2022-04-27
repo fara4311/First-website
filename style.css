@@ -3,7 +3,7 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
     position: fixed;
     top: 0px;
     left: 0px;
-    padding: 50px;
+    padding: 30px;
     width: 100%;
     background-color: #d2c7b8;
     }
@@ -14,6 +14,8 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
     width: 50px;
     color:azure;
     }
+body2 {padding-top: 200px;}
+
 img  {max-width:100%;max-height:100%;}
 .img1 {width:800px;height:800px;}
 h2 {font-size: 14px; color:rgb(73, 92, 73)}
