@@ -17,5 +17,5 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
     body {position:relative;top:180px;}
 
 img  {max-width:100%;max-height:100%;}
-.img1 {align: center; width:800px;height:800px;}
+.img1 {box-align: center; width:800px;height:800px;}
 h2 {font-size: 14px; color:rgb(73, 92, 73);}
