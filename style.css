@@ -1,5 +1,11 @@
-body {
-    background-color: rgb(213, 200, 176);
+body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #f9ecda;}
+h1 { font-size:24px;color:rgb(110, 95, 95)
 }
-title { font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:22px;
+#header{
+    width:100%; background-color: rgb(174, 166, 154, 0.4);height:50px
 }
+#headerContent{
+    margin: 0 auto; width: 1250px;
+}
+#img1  {width:500px;height:500px}
+h2 {font-size: 14px; color:rgb(73, 92, 73)}
