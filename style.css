@@ -1,16 +1,17 @@
-body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #f9ecda;}
-h1 { font-size:24px;color:rgb(110, 95, 95)
+body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 }
 #header {
-    margin: 0 auto;
+    margin: -25px;
     padding: 50px;
     width: 100%;
     background-color: #d2c7b8;
     }
     
-    #header #content {
-    margin: 0px auto;
+    #header #content {font-size: 30px;
+
+    margin: 25px;
     width: 50px;
+    color:azure
     }
 #img1  {width:500px;height:500px}
 h2 {font-size: 14px; color:rgb(73, 92, 73)}
