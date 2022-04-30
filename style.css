@@ -1,5 +1,5 @@
 body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-#header {
+.header {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -9,7 +9,7 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
     box-shadow:0 5px 10px rgba(88, 86, 86, 0.19) ;
     }
     
-    #header #content {font-size: 30px;
+    .header #content {font-size: 30px;
 
     margin: 25px;
     width: 50px;
