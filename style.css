@@ -6,7 +6,7 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
     padding: 30px;
     width: 100%;
     background-color: #ede9e3;
-    box-shadow:0 10px 20px rgba(88, 86, 86, 0.19) ;
+    box-shadow:0 5px 10px rgba(88, 86, 86, 0.19) ;
     }
     
     #header #content {font-size: 30px;
