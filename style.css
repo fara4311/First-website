@@ -17,14 +17,100 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
     }
     body {position:relative;top:180px;}
 
+    .col-xs-9 {
+        width: 75%;}
+
     .header_section_bottom_right #main_menu_under_header {
-        position: absolute;
+        position:fixed;
         right: 10px;
         top: 50%;
         transform: translateY(-50%);
     }
 
-
+    .site-menu {
+        position: relative;
+        z-index: 99;
+    }
+    .menu-text {
+        display: none;
+        float: right;
+        padding: 13px 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .menu-bar ul {
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        list-style: none;
+    }
+    .menu-bar ul li {
+        position: relative;
+    }
+    .menu-bar ul li a {
+        display: block;
+        text-decoration: none;
+        line-height: 38px;
+        font-size: 11px;
+        font-weight: 400;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 0 18px;
+        color: #000;
+        -moz-transition: all 0.25s ease-out; -webkit-transition: all 0.25s ease-out; transition: all 0.25s ease-out;
+    }
+    .menu-bar ul li a:hover {
+        color: #999;
+    }
+    .menu-bar {
+        height: auto;
+    }
+    .menu-bar ul ul {
+        opacity: 0;
+        visibility: hidden;
+        -moz-transition: all 0.17s ease-out; -webkit-transition: all 0.17s ease-out; transition: all 0.17s ease-out;
+        position: absolute;
+        top: 38px;
+        left: 0;
+        width: auto;
+        background: #fff;
+        border: none;
+        text-align: left;
+    }
+    .menu-bar ul ul ul {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+    .menu-bar ul li:hover > ul {
+        opacity: 1;
+        visibility: visible;
+    }
+    .menu-bar > ul > li {
+        display: inline-block;
+    }
+    .menu-bar ul ul li {
+        display: block;
+        padding: 0;
+        border-right: none;
+    }
+    .menu-bar ul li ul a {
+    line-height: 1.4;
+    padding: 6px 18px;
+    min-width: 170px;
+    }
+    .site-top.stickybar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5000;
+    }
+    .sticky-nudge {
+        margin-top: 30px;
+    }
+    
 
 
 img  {max-width:100%;max-height:100%;}
