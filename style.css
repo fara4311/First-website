@@ -3,7 +3,7 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
 width: 60px;
 height: 40px;
 top:40px;
-left: 20px;
+left: 40px;
 }
 .header {
     position: fixed;
@@ -14,7 +14,7 @@ left: 20px;
     background-color: #f9f8f7;
     box-shadow:0 5px 10px rgba(88, 86, 86, 0.19) ;
     }
-
+    
     body {position:relative;top:180px;}
 
     .col-xs-9 {
