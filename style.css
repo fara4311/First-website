@@ -7,9 +7,17 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
     padding: 30px;
     width: 100%;
     background-color: #f9f8f7;
-    box-shadow:0 5px 10px rgba(88, 86, 86, 0.19) ;
+    box-shadow:0 5px 10px rgba(88, 86, 86, 0.19);
     }
-    .titlepic #content {position:fixed;
+
+    .content {font-size: 30px;
+
+        margin: 25px;
+        width: 50px;
+        color:rgb(78, 82, 82);
+        }
+
+    #titlepic {position:fixed;
         width: 60px;
         height: 40px;
         top:40px;
