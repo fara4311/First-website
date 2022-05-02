@@ -1,7 +1,7 @@
-body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;background-color:antiquewhite;}
 #titlepic {position:fixed;
-width: 40px;
-height: 20px;
+width: 60px;
+height: 40px;
 top:40px;
 left: 40px;
 }
@@ -11,7 +11,7 @@ left: 40px;
     left: 0px;
     padding: 30px;
     width: 100%;
-    background-color: #ede9e3;
+    background-color: #f9f8f7;
     box-shadow:0 5px 10px rgba(88, 86, 86, 0.19) ;
     }
     
