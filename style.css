@@ -216,11 +216,14 @@ body {
     
 
     .container 
-    {  display:flex; */ or inline-flex */
+    {  display:flex;
         flex-direction: column;}
 
 
+.firstcolumn {flex:50%;
+padding:10px;}
 
+.secondcolumn {flex:50%;}
 
 img {max-width: 100%; max-height: 100%;}
 #img1 {width:700px;height:700px;
@@ -243,7 +246,7 @@ border-bottom: 1px solid rgb(105, 103, 103);
      padding:0 10px; 
 }
  
-.secondcolumn {
+p {
     color:rgb(84, 82, 82);
 font-size: 26px;
 margin-bottom:10px;}
