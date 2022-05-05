@@ -222,8 +222,9 @@ body {
 img {max-width: 100%; max-height: 100%;}
 .img1 {width:700px;height:700px;
 margin-top:70px; margin-left:100px;padding-bottom: 10px;}
+
 h2 {font-size: 36px; color:rgb(105, 103, 103);
-    width: 100%; 
+    width: 50%; 
    text-align: center; 
    line-height: 0.1em;
    margin: 10px 0 20px; 
@@ -238,19 +239,7 @@ border-bottom: 1px solid rgb(105, 103, 103);
      background:#fff; 
      padding:0 10px; 
 }
-
-h2 {
-    width: 100%; 
-    text-align: left; 
-    border-bottom: 1px solid #000; 
-    line-height: 0.1em;
-    margin:
- } 
  
- h2 span { 
-     background:#fff; 
-     padding:0 10px; 
- }
 .para1 {color:rgb(84, 82, 82);
 font-size: 26px;
 margin-bottom:10px;}
