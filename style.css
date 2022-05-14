@@ -217,15 +217,19 @@
     .container 
     {  display:flex;
         flex-direction: row;
-    background-color: rgba(240, 206, 169, 0.4);
-margin-top: -40px;}
+    background-color: rgba(222, 210, 181, 0.4);
+margin-top: -40px;
+margin-left: -25px;
+margin-right: -24px;
+}
 
 
 .firstcolumn {
 align-items: center;
 width:50%;
 margin-left:100px;
-margin-top: 50px;
+margin-top: 30px;
+margin-bottom: 100px;
 }
 
 img {max-width: 100%; max-height: 90%;}
@@ -242,27 +246,46 @@ h2 {font-size: 34px; color:rgb(105, 103, 103);
 font-family: Montserrat, sans-serif;
 font-weight: 100;
 letter-spacing: 3px;
-border-bottom: 1px solid rgb(105, 103, 103);
    
  } 
  
  h2 span {  
      background-color: transparent;
-     padding: 0, 10;
 }
  
 .secondcolumn {
 width:40%;
 margin-left: 10px;
 margin-top:100px;
-padding: 50px;}
+padding: 50px;
+margin-bottom: 100px;
+align-content: center;
+}
+
+
+#img2 {
+    max-height: 400px;
+    max-width: 350px;
+    margin-right: 50px;
+    clip-path:circle();
+
+}
 
 p {
     color:rgb(84, 82, 82);
 font-size: 30px;
 margin-bottom:10px;
-font-family: Paradise;}
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 #para2 {color:#444;
 font-size: 24px;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color:rgb(72, 69, 69);
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
 }
