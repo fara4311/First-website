@@ -267,10 +267,10 @@ position: center;
 #img2 {
     max-height: 400px;
     max-width: 350px;
-    margin-right: 50px;
+    margin-right: auto;
+    margin-left: auto;
     clip-path:circle();
     position: center;
-    position: fixed;
 
 }
 
