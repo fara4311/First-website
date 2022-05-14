@@ -247,7 +247,7 @@ border-bottom: 1px solid rgb(105, 103, 103);
  } 
  
  h2 span {  
-     background-color: #fff;
+     background-color: rgba(240, 206, 169, 0.4);
      padding:0 10px; 
 }
  
