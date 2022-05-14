@@ -259,8 +259,9 @@ margin-left: 10px;
 margin-top:100px;
 padding: 50px;
 margin-bottom: 100px;
-align-content: center;
+position: center;
 }
+
 
 
 #img2 {
@@ -268,6 +269,8 @@ align-content: center;
     max-width: 350px;
     margin-right: 50px;
     clip-path:circle();
+    position: center;
+    position: fixed;
 
 }
 
