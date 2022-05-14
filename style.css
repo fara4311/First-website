@@ -6,7 +6,7 @@
     left: 0px;
     padding: 30px;
     width: 100%;
-    background-color:rgba(233, 183, 145, 0.4);
+    background-color:rgb(250, 251, 252);
     box-shadow:0 5px 10px rgba(88, 86, 86, 0.19);
     }
 
@@ -217,7 +217,7 @@
     .container 
     {  display:flex;
         flex-direction: row;
-    background-color: rgba(211, 168, 168, 0.08);
+    background-color: rgba(240, 206, 169, 0.4);
 margin-top: -40px;}
 
 
@@ -246,8 +246,8 @@ border-bottom: 1px solid rgb(105, 103, 103);
    
  } 
  
- h2 span { 
-     background:#fff; 
+ h2 span {  
+     background-color: #fff;
      padding:0 10px; 
 }
  
@@ -261,7 +261,7 @@ p {
     color:rgb(84, 82, 82);
 font-size: 30px;
 margin-bottom:10px;
-font-family: Montserrat, sans-serif;}
+font-family: Paradise;}
 #para2 {color:#444;
 font-size: 24px;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
