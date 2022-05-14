@@ -217,7 +217,8 @@
     .container 
     {  display:flex;
         flex-direction: row;
-    background-color: bisque;}
+    background-color: rgba(211, 168, 168, 0.08);
+margin-top: 20px;}
 
 
 .firstcolumn {
