@@ -1,1 +1,6 @@
-document.getElementById('videob').controls = false
+
+ function hide(){
+    video.removeAttribute( 'controls' );
+ }
+ removeAttribute= "videob";
+ 
