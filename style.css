@@ -2,7 +2,7 @@
 
 .header {
     position: fixed;
-    top: 0px;
+    top: 0;
     left: 0px;
     padding: 30px;
     width: 100%;
@@ -230,29 +230,43 @@ align-items: center;
 width:70%;
 margin-left:-20px;
 margin-bottom: 100px;
-margin-top: -100px;
 }
 
 img {max-width: 100%; max-height: 90%;}
 
-h2 {font-size: 34px; color:rgb(105, 103, 103);
-    width: 90%; 
-   text-align: center; 
-   line-height: 0.1em;
-   margin: 10px 0 20px;
-   margin-top: -10px; 
+.overlay {position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    margin-top: 100px;
+
+}
+
+h2 {font-size: 34px; color:rgb(255, 255, 255);
+   text-align: left; 
 font-family: Montserrat, sans-serif;
 font-weight: 100;
 letter-spacing: 3px;
    
  } 
+
+#p1 {font-size: 20px; color:rgb(255, 255, 255);
+    text-align: right; 
+ font-family: Montserrat, sans-serif;
+ font-weight: 100;
+ letter-spacing: 3px;
+    
+  } 
  
  h2 span {  
      background-color: transparent;
 }
  
 .videob {margin-right: 10px; 
-width: 100%;}
+width: 100%;
+margin-top: -200px;
+
+}
 
 
 .secondcolumn {
@@ -268,7 +282,6 @@ img {object-fit: contain;}
 #img2 {
     height: 40%;
     width: 40%;
-    margin: auto;
     margin: auto;
     clip-path:circle();
 }
