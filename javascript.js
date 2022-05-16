@@ -1,0 +1,1 @@
+document.getElementById('videob').controls = false
